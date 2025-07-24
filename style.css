@@ -97,6 +97,16 @@ h1{
 .choices a{
     padding-bottom: .5rem;
 }
+
+.aidan{
+    display: flex;
+    justify-content: center;
+    
+}
+.aidan img{
+    width: 20rem;
+    padding-top: 7rem;
+}
 }
 .last-content{
     display: flex;
@@ -106,5 +116,5 @@ h1{
 }
 p{
     text-align: justify;
-    
+    line-height: 2;
 }

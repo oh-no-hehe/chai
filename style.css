@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: 'Cormorant Garamond';
+  scroll-behavior: smooth;
+  background-color: antiquewhite;
+}
+
+
+    
+
+@media (max-width: 767px){
+
+body{
+    font-family: 'Cormorant Garamond';
+   
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: 'Cormorant Garamond';
+  scroll-behavior: smooth;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+   
+   align-items: center;
+   padding-top: 17rem;
+ 
+}
+h1{
+    padding-bottom: 1rem;
+   
+}
+
+ a{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+.image-container img{
+    width: 20rem;
+    padding-top: 5rem;
+
+}
+.last-image-container img{
+    width: 17rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    
+
+}
+
+
+.page1-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page2-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 17rem 10%;
+}
+.question-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 11rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.choices{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 1rem;
+}
+.choices a{
+    padding-bottom: .5rem;
+}
+}
+.last-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 10%;
+}
+p{
+    text-align: justify;
+    
+}
